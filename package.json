@@ -1,0 +1,20 @@
+{
+    "name": "gAmancio-BackEnd",
+    "version": "1.0.0",
+    "description": "Tutorial on Mern",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guian615/gAmancio-BackEnd.git"
+    },
+    "keywords": [],
+    "author": "Guian Amancio",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/guian615/gAmancio-BackEnd/issues"
+    },
+    "homepage": "https://github.com/guian615/gAmancio-BackEnd#readme"
+}
