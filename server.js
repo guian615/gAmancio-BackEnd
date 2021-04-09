@@ -20,10 +20,10 @@ connection.once('open', () => {
     console.log('monggoDB connected');
 
 })
-app.get('/', (req, res) => {
-    // res.send('<marquee width="60%" direction="left" height="100px"><h1 style= "color: red;font-size:50px"> Guian23... MongoDB Connection</h1></marquee>');
-    res.sendFile(path.join(__dirname + '/index.html'));
-})
+// app.get('/', (req, res) => {
+//     // res.send('<marquee width="60%" direction="left" height="100px"><h1 style= "color: red;font-size:50px"> Guian23... MongoDB Connection</h1></marquee>');
+// //     res.sendFile(path.join(__dirname + '/index.html'));
+// })
 app.use('./user', UserRouter);
 
 app.listen(port, () => {
